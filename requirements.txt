@@ -1,0 +1,8 @@
+sentence-transformers
+newspaper3k
+nltk
+fastapi
+uvicorn
+python-dotenv
+faiss-cpu
+numpy
