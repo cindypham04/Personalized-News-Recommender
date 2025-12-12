@@ -9,13 +9,13 @@ async def root():
     return {"message": "News API alive"}
 
 class SummarizeRequest(BaseModel):
-    # Request body for summarization endpoint
+    # request body for summarization endpoint
     query: str 
     user_id: Optional[str] = None
     reading_time: Optional[str] = None # e.g. "30s"
 
 class ArticleSummary(BaseModel):
-    # Response body for summarization endpoint
+    # response body for summarization endpoint
     title: str
     summary: str
     url: Optional[str] = None
